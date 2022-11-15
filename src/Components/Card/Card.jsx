@@ -1,13 +1,12 @@
 import './Card.css'
 
-
 function Card(props) {
     return (
-      <article className="tarjeta">
-        <section className="Card-header">
-          <h1>{props.title}</h1>
+      <article className="card-style">
+        <section>
+          <h3>{props.title}</h3>
         </section>
-        <section className="Card-imagen">
+        <section>
           <img src={props.image} alt={props.descrip} width="300px" height="200px"/>
         </section>
         <section>
