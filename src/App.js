@@ -6,16 +6,19 @@ import image_cup from "./assets/cup.jpg";
 import image_desktop from "./assets/desktop.jpg";
 import image_kermit from "./assets/kermit.jpg";
 
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
+    <main>
       <Header title="Galeria de Imagénes con React" />  
-      <Card title="Titulo1"  descrip="La tasa de cafe" image={image_cup} />  
-      <Card title="Titulo2"  descrip="La tasa de cafe y desktop" image={image_desktop} />  
-      <Card title="Titulo3"  descrip="La tasa de cafe y kermit" image={image_kermit} />  
+      <div  className='galeria'>
+        <Card title="Café espresso"  descrip="Una tasa de café, el mejor aliado para comenzar tu día!" image={image_cup} />  
+        <Card title="Herramientas de trabajo"  descrip="Minimiza las distracciones y potenciarás tu productividad!" image={image_desktop} />  
+        <Card title="Relax" descrip="Después de un largo dia, te mereces un break!" image={image_kermit} /> 
+      </div> 
       <Footer />  
-    </div>
+    </main>
   );
 }
 
