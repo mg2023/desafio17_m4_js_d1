@@ -1,5 +1,4 @@
-// import logo from './logo.svg';
-// import './App.css';
+import './Header.css'
 
 function Header(props) {
   return (

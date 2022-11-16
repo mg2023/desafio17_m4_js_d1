@@ -9,12 +9,9 @@ body {
 }
 
 main {
-  width: 1200px;
   min-height: 100vh;
   text-align: center;
-  margin: 20px auto;
   background-color: black; 
-  padding-top: 10px;
 }
 
 code {

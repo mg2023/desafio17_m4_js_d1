@@ -1,16 +1,14 @@
-import "bootstrap/dist/css/bootstrap.css";
-import Button from "react-bootstrap/Button";
+import './Footer.css'
+import 'bootstrap/dist/css/bootstrap.css';
+import Button from 'react-bootstrap/Button';
 
 function Footer(props) {
     return (
-      <div className="Footer">
-        <header className="Footer-header">
-          <h3>Todos los derechos reservados</h3>
-          {/* <button type="button" class="btn btn-light">Compre su café aquí</button> */}
-          <Button>Compre su café aquí</Button>
-        </header>
-      </div>
+      <footer>
+        <Button variant="secondary">Compre su café aquí</Button>
+        <h3>Todos los derechos reservados</h3>
+      </footer>
     );
   }
   
-  export default Footer;
+export default Footer;
